@@ -1,0 +1,28 @@
+body
+{
+    padding: 50px;
+    
+}
+.trigger
+{
+    width: 100px;
+    height: 100px;
+    border: 20px solid rgb(104, 178, 116);
+    background-color: cadetblue;
+}
+.box1
+{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(218, 1, 242);
+    display: inline-block;
+    transition: transform 3s ease-in-out;
+    pointer-events: none;
+    
+}
+
+
+.trigger:hover .box1
+{
+    transform: translate(120px,120px) rotate(360deg);
+}

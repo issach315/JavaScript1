@@ -1,0 +1,23 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.outer
+{
+    width: 250;
+    height: 250;
+    background-image: linear-gradient(to bottom right,rgb(75, 22, 181),red,yellow);
+    border-radius: 20px;
+    position: relative;
+}

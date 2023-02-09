@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.outer
+{
+    width: 250px;
+    height: 250px;
+    background-image: linear-gradient(to bottom right, rgb(75, 22, 181),rgb(175, 67, 191),rgb(240, 0, 0),rgb(255, 255, 0));
+    border-radius: 15px;
+    position: relative;
+    border: 2px solid;
+}
+.outer>div{
+    position:absolute;
+}
+.inner{
+    top: 10%;
+    left: 10%;
+    border: 8px solid white;
+   width: 80%;
+   height: 80%;
+   border-radius: 30px;
+}
+.circle
+{
+    top: 30%;
+    left: 30%;
+    width: 40%;
+    height: 40%;
+    border-radius: 50%;
+    border: 9px solid white;
+
+}
+.dot
+{
+    width: 10%;
+    height: 10%;
+    border-radius: 50%;
+    background-color: aliceblue;
+    top: 21%;
+    right: 21%;
+}
+    </style>
+</head>
+<body>
+
+    <div class="outer">
+        <div class="inner"></div>        
+        <div class="circle"></div>        
+        <div class="dot"></div>        
+
+    </div>
+    
+</body>
+</html>
